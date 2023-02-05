@@ -2,8 +2,22 @@
 title: "About"
 ---
 
-About this site
+## About Me
 
-```{r}
-1 + 1
-```
+Hi! My name is **Ava Ransbotham** (she/her) and I'm a freshman at Newton South High School. I love to swim, paint, and make pretty graphs :)
+
+## About the Project
+
+The project I've created, *Car Weight and Fuel Efficiency*, shows the relationship between weight and MPG in a variety of cars.
+
+### Goals
+
+-   Create my first website
+    +   This requires me to remember to load all the correct packages
+-   Determine if there is a correlation between weight and fuel efficiency
+
+"This is data science"
+\
+~Preceptor
+
+[Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info)
