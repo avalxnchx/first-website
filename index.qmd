@@ -10,19 +10,19 @@ library(ggthemes)
 ```
 
 ```{r}
-#| echo: false 
-#| label: car-plot
+#| echo: false
+car_plot <- read_rds("car-plot.rds")
 
-mtcars |>
-select(mpg, wt) |> 
-ggplot(aes(x = wt, y = mpg)) +
-geom_point() +
-geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-theme_clean() +
-labs(title = "Fuel Efficiency and Weight",
-subtitle = "Heavier cars are less fuel efficient",
-x = "Weight (1000s of Pounds)",
-y = "Miles Per Gallon",
-caption = "Henderson and Vellerman (1981)")
 
+ggsave("car-plot.png", plot = car_plot)
+```
+
+```{r}
+#| label: image
+#| echo: false
+
+library(knitr)
+include_graphics("images/car-plot.png")
+
+# I saved the plot code to an object, saved that object to a .rds file, saved that to a different object (with the same name!), then saved it to a .png file
 ```

@@ -1,0 +1,21 @@
+---
+title: "Chick Weight"
+author: "Ava Ransbotham"
+---
+```{r}
+#| echo: false
+#| message: false
+#| warbing: false
+#| label: plot
+library(plotly)
+library(tidyverse)
+
+plot <- ggplot(data = ChickWeight, mapping = aes(x = weight, y = Diet, text = weight)) +
+  geom_point(alpha = .5) +
+  labs(title = "Diet and Weight of Chicks",
+       x = "Weight of Chick (in grams)",
+       y = "Diet")
+
+ggplotly(plot, tooltip = "text")
+```
+

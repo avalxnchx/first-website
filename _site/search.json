@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi! My name is Ava Ransbotham (she/her) and I’m a freshman at Newton South High School. I love to swim, paint, and make pretty graphs :)"
+  },
+  {
+    "objectID": "about.html#about-the-project",
+    "href": "about.html#about-the-project",
+    "title": "About",
+    "section": "About the Project",
+    "text": "About the Project\nThe project I’ve created, Car Weight and Fuel Efficiency, shows the relationship between weight and MPG in a variety of cars.\n\nGoals\n\nCreate my first website\n\nThis requires me to remember to load all the correct packages\n\nDetermine if there is a correlation between weight and fuel efficiency\n\n“This is data science”\n~Preceptor\nKane’s Free High School Data Science Bootcamp"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "first-website",
+    "section": "",
+    "text": "Saving 7 x 5 in image"
+  },
+  {
+    "objectID": "map-london.html",
+    "href": "map-london.html",
+    "title": "Map of London",
+    "section": "",
+    "text": "library(leaflet)\nleaflet() |> setView(lat = 51.4993, lng =  -0.1280, zoom = 12) |> addTiles()"
+  }
+]

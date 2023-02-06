@@ -1,0 +1,13 @@
+---
+title: "Map of London"
+author: "Ava Ransbotham"
+---
+```{r}
+#| label: map
+#| echo: false
+#| warning: false
+#| message: false
+library(leaflet)
+leaflet() |> setView(lat = 51.4993, lng =  -0.1280, zoom = 12) |> addTiles()
+```
+
