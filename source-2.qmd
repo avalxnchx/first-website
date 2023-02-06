@@ -1,4 +1,6 @@
 ---
 title: "Source 2"
 author: "Ava Ransbotham"
+bibliography: bib/references.bib
 ---
+@Turing1936 says that math is cool

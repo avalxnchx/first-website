@@ -1,4 +1,6 @@
 ---
 title: "Source 1"
 author: "Ava Ransbotham"
+bibliography: bib/references.bib
 ---
+[@Lovelace1842] says computers are new
