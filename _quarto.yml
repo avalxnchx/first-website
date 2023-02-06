@@ -13,7 +13,7 @@ website:
       - sidebar:interactive
         
   sidebar:
-      id: sources
+    - id: sources
       title: "Souces"
       style: "floating"
       background: "#ffffff""
@@ -28,5 +28,5 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+
 
