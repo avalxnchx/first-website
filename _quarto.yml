@@ -16,7 +16,7 @@ website:
     - id: sources
       title: "Souces"
       style: "floating"
-      background: "#ffffff""
+      background: "#ffffff"
       collapse-level: 2
       contents:
         - source-1.qmd
