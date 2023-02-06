@@ -2,12 +2,25 @@ project:
   type: website
 
 website:
-  title: "first-website"
+  title: "First Website"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+        sidebar:sources
+        sidebar:interactive
+        
+  sidebar:
+      id: sources
+      title: "Souces"
+      style: "floating"
+      background: "#ffffff""
+      collapse-level: 2
+      contents:
+        - source-1.qmd
+        - source-2.qmd
 
 format:
   html:
